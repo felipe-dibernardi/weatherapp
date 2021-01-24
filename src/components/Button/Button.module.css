@@ -1,0 +1,30 @@
+.Button {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #9762A2 0%, #a6c1ee 100%);
+    box-shadow: 1px 2px 3px #333;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button svg {
+    font-size: 1.2rem;
+    color: #FFF;
+    position: relative;
+}
+
+.Button:hover, .Button:active {
+    background-color: salmon;
+    
+}
+
+.Button:active {
+    box-shadow: inset 1px 2px 3px #333;
+}
+
+.Button:active svg {
+    top: 1px;
+}
